@@ -42,6 +42,10 @@ public class Script : MonoBehaviour
         {
             Debug.Log("result is neither even,odd or multiple of 3");
         }
+        else
+        {
+            Debug.Log("Invalid Input, please try again with integer(0-9) input");
+        }
     }
 
     public void ReadStringInput(string s)
